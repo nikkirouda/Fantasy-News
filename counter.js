@@ -5,7 +5,7 @@
    Visit any page once with ?me on the end to stop counting your own visits
    in that browser (?me=off undoes it). */
 (function () {
-  var ENDPOINT = ''; // the Apps Script web-app URL; empty = count nothing
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbzvfJi9viIG-9ZLPJrqXgq8ycI0JQMxW2gKtMN7DZbvJ03T8ezu_Dc0fucHohLpsNS4Uw/exec'; // the Apps Script web-app URL; empty = count nothing
   var store = {};
   try { store = window.localStorage; } catch (e) {}
   var q = location.search;

@@ -1,3 +1,4 @@
+/** @OnlyCurrentDoc */
 // The league's own counter: paste into the Google Sheet's Apps Script editor
 // (Extensions > Apps Script), run setup() once, then Deploy > New deployment >
 // Web app, Execute as: Me, Who has access: Anyone. Put the web-app URL in

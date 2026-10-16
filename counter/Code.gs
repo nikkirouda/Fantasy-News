@@ -25,7 +25,7 @@ function setup() {
   sum.clear();
   sum.getRange('A1').setValue('Per page: views, plays, half-heard, finished, distinct visitors');
   sum.getRange('A3').setFormula(
-    "=QUERY(hits!A2:D, \"select B, count(C) where B is not null group by B pivot C\", 0)");
+    "=QUERY(hits!A2:D, \"select B, count(A) where B <> '' group by B pivot C\", 0)");
   sum.getRange('H1').setValue('Distinct visitors, all pages');
   sum.getRange('H2').setFormula('=COUNTUNIQUE(hits!D2:D)');
   sum.getRange('H4').setValue('Distinct visitors per page');

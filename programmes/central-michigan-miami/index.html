@@ -1,35 +1,35 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Miami (OH) at Central Michigan Programme</title>
 <style>
-:root{--bg:#faf7f2;--fg:#1b1b1b;--muted:#6b645c;--card:#fff;--line:#e3ddd4;--home:#6a0032;--away:#c41230;--hometx:#6a0032;--awaytx:#c41230;--accent:#8a6d3b}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141210;--fg:#f1ece4;--muted:#a79e93;--card:#1f1b18;--line:#332d28;--hometx:#fbab18;--awaytx:#ff6f78;--accent:#e0b04a}}
-:root[data-theme=dark]{--bg:#141210;--fg:#f1ece4;--muted:#a79e93;--card:#1f1b18;--line:#332d28;--hometx:#fbab18;--awaytx:#ff6f78;--accent:#e0b04a}
+:root{--bg:#fbf8f3;--rule:#FFC82E;--homeon:#FFC82E;--awayon:#fff;--fg:#1b1b1b;--muted:#6b645c;--card:#fff;--line:#e3ddd4;--home:#6A0032;--away:#c41230;--hometx:#6A0032;--awaytx:#c41230;--accent:#6A0032}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141210;--fg:#f1ece4;--muted:#a79e93;--card:#1f1b18;--line:#332d28;--rule:#FFC82E;--hometx:#FFC82E;--awaytx:#ff6f78;--accent:#FFC82E}}
+:root[data-theme=dark]{--bg:#141210;--fg:#f1ece4;--muted:#a79e93;--card:#1f1b18;--line:#332d28;--rule:#FFC82E;--hometx:#FFC82E;--awaytx:#ff6f78;--accent:#FFC82E}
 *{box-sizing:border-box} html{font-size:var(--base,18px)} body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
-header.hero{background:linear-gradient(135deg,var(--away) 0 50%,var(--home) 50% 100%);color:#fff;padding:22px 16px 18px;text-align:center}
+header.hero{background:var(--home);color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:6px solid var(--rule)} header.hero h1{color:var(--homeon)}
 header.hero h1{margin:0;font-size:28px;letter-spacing:.5px} header.hero .sub{opacity:.95;margin-top:6px;font-size:15px}
 header.hero .rec{display:flex;justify-content:center;gap:18px;margin-top:10px;font-weight:700;font-size:18px}
-nav.tabs{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;overflow-x:auto;gap:4px;padding:6px 8px;scrollbar-width:none}
+nav.tabs{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:3px solid var(--home);display:flex;overflow-x:auto;gap:4px;padding:6px 8px;scrollbar-width:none}
 nav.tabs a{flex:0 0 auto;padding:8px 12px;border-radius:999px;text-decoration:none;color:var(--fg);background:var(--bg);font-size:0.95rem;font-weight:600;white-space:nowrap}
 main{max-width:980px;margin:0 auto;padding:0 16px 60px}
-section{margin:26px 0} h2{font-size:22px;margin:0 0 10px;border-bottom:3px solid var(--accent);padding-bottom:4px}
+section{margin:26px 0} h2{font-size:22px;margin:0 0 10px;border-bottom:3px solid var(--rule);padding-bottom:4px}
 h3{margin:2px 0 0;font-size:20px} .dim{color:var(--muted)} .small{font-size:0.92rem}
 .card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--home);border-radius:12px;padding:12px;margin:10px 0;scroll-margin-top:70px}
 .card.away{border-left-color:var(--away)}
 .card .top{display:flex;gap:12px;align-items:flex-start} .card{font-size:1.02rem}
 .hs{width:104px;height:104px;border-radius:12px;object-fit:cover;object-position:top;background:#ddd;flex:0 0 104px}
-.ph{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:30px;background:var(--home)} .ph.away{background:var(--away)}
+.ph{display:flex;align-items:center;justify-content:center;color:var(--homeon);font-weight:800;font-size:30px;background:var(--home)} .ph.away{background:var(--away);color:var(--awayon)}
 .num{font-weight:800;font-size:22px;color:var(--hometx)} .away .num{color:var(--awaytx)}
-.cap{display:inline-block;margin-left:8px;font-size:12px;background:var(--accent);color:#fff;border-radius:4px;padding:1px 6px;vertical-align:middle}
+.cap{display:inline-block;margin-left:8px;font-size:12px;background:var(--home);color:var(--homeon);border-radius:4px;padding:1px 6px;vertical-align:middle}
 .pos{font-weight:600} .meta,.home{font-size:0.95rem} .who div{margin-top:1px}
 .notes{margin:10px 0 0;padding-left:18px;font-size:1rem} .notes li{margin:3px 0}
 .stats{margin-top:8px;font-size:0.98rem} .stats ul{margin:2px 0 0;padding-left:18px}
 details.bio{margin-top:8px;font-size:1rem;line-height:1.55} details.bio summary{cursor:pointer;color:var(--accent);font-weight:600} details.bio p{margin:6px 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px;margin:8px 0 16px}
-.grid a.n{display:block;text-align:center;padding:10px 0;border-radius:8px;background:var(--home);color:#fff;font-weight:700;text-decoration:none;font-size:16px}
-.grid.away a.n{background:var(--away)}
+.grid a.n{display:block;text-align:center;padding:10px 0;border-radius:8px;background:var(--home);color:var(--homeon);font-weight:700;text-decoration:none;font-size:16px}
+.grid.away a.n{background:var(--away);color:var(--awayon)}
 .lookup{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
 .seg{display:flex;gap:8px;margin-bottom:10px} .seg button{flex:1;padding:12px;border-radius:10px;border:2px solid var(--line);background:var(--bg);color:var(--fg);font-weight:700;font-size:16px}
-.seg button.on.b{background:var(--home);color:#fff;border-color:var(--home)} .seg button.on.c{background:var(--away);color:#fff;border-color:var(--away)}
+.seg button.on.b{background:var(--home);color:var(--homeon);border-color:var(--home)} .seg button.on.c{background:var(--away);color:#fff;border-color:var(--away)}
 .numbox{display:flex;gap:8px;align-items:center} .numbox input{flex:1;min-width:0;font-size:34px;padding:8px 12px;border-radius:10px;border:2px solid var(--line);background:var(--bg);color:var(--fg);text-align:center;font-weight:800;letter-spacing:2px}
 .numbox input[type=text]{font-size:17px;font-weight:500;letter-spacing:0;text-align:left}
 .keys{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px} .keys button{padding:16px 0;font-size:24px;font-weight:700;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
@@ -42,7 +42,7 @@ table.starters{margin:0 0 10px} table.starters td.pl{font-weight:800;width:38px}
 .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
 .lead{padding-left:18px;margin:4px 0} .lead li{margin:3px 0}
 .bingo{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px} .bingo div{overflow-wrap:anywhere;hyphens:auto} .bingo div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 4px;font-size:0.72rem;min-height:74px;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer;line-height:1.2}
-.bingo div.x{background:var(--accent);color:#fff;text-decoration:line-through}
+.bingo div.x{background:var(--home);color:var(--homeon);text-decoration:line-through}
 .score{display:grid;grid-template-columns:1.3fr repeat(5,1fr);gap:4px;align-items:center;text-align:center} .score input{width:100%;font-size:18px;text-align:center;padding:8px 2px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)} .score .tm{font-weight:800;text-align:left} .score .tot{font-weight:800;font-size:20px}
 textarea{width:100%;min-height:90px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:8px;font:inherit}
 .quiz .q{text-align:center} .quiz img{width:160px;height:160px;object-fit:cover;object-position:top;border-radius:14px} .quiz .opts{display:grid;gap:8px;margin-top:10px} .quiz button{padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font-size:16px} .quiz button.ok{background:#1d7a3a;color:#fff} .quiz button.bad{background:#b31b1b;color:#fff}
@@ -1087,7 +1087,7 @@ Q4 0:51 MIA: McLaughlin 41-yd FG (MIA 46-7)
 <div class="box"><p><b>Link:</b> <a href="https://nikkirouda.github.io/Fantasy-News/programmes/central-michigan-miami/">https://nikkirouda.github.io/Fantasy-News/programmes/central-michigan-miami/</a></p><p class="small">Open it once with signal and it works without; to keep it, use the browser's Download (Chrome menu → Download, then open it from Files). Public page: team names, roster facts and press notes only.</p></div></div>
 </section>
 <footer id="about"><h2>Sources &amp; notes</h2>
-<p>Built Saturday, Oct. 24, 2026, for offline reading. Rosters, photos, 2026 and 2025 statistics, schedules, standings, team stats, leaders, head coaches and the betting line: ESPN's public college-football data (site.api.espn.com), pulled Saturday.  Forecast: National Weather Service hourly forecast. Editorial sources: ESPN API: game summary 401866476 (odds, weather, team leaders, Data Skrive preview); ESPN API: 2026 box scores and AP recaps, all 14 games for both teams; ESPN API: 2024 meeting summary 401644687 (AP recap, scoring plays, box); ESPN team schedules 2005-2026 and rosters (CMU 2117, Miami 193); CMU Game 8 Game Notes vs. Miami (Ohio) PDF, cmuchippewas.com, Oct. 21, 2026; cmuchippewas.com: 2026 Football Promotions Schedule (July 31, 2026); cmuchippewas.com: Know Before You Go, Game Day A-Z (Oct. 22, 2026); cmuchippewas.com: 1896 Society Tailgate (Oct. 23, 2026); Winsipedia: Central Michigan vs. Miami (OH) series and games list; Wikipedia: Kelly/Shorts Stadium; The Miami Student, Aug. 2026 season preview; Monmouth Athletics / CAA (Nelson, 2025 CAA Offensive POY); Rotowire: Miami (OH) game page and Caleb Heavner news.</p>
+<p>Built Saturday, Oct. 24, 2026, for offline reading. Rosters, photos, 2026 and 2025 statistics, schedules, standings, team stats, leaders, head coaches and the betting line: ESPN's public college-football data (site.api.espn.com), pulled Saturday.  Forecast: National Weather Service hourly forecast. Colours: CMU brand guidelines (cmich.edu, color palette): maroon PMS 209 C = #6A0032, gold PMS 123 C = #FFC82E. Editorial sources: ESPN API: game summary 401866476 (odds, weather, team leaders, Data Skrive preview); ESPN API: 2026 box scores and AP recaps, all 14 games for both teams; ESPN API: 2024 meeting summary 401644687 (AP recap, scoring plays, box); ESPN team schedules 2005-2026 and rosters (CMU 2117, Miami 193); CMU Game 8 Game Notes vs. Miami (Ohio) PDF, cmuchippewas.com, Oct. 21, 2026; cmuchippewas.com: 2026 Football Promotions Schedule (July 31, 2026); cmuchippewas.com: Know Before You Go, Game Day A-Z (Oct. 22, 2026); cmuchippewas.com: 1896 Society Tailgate (Oct. 23, 2026); Winsipedia: Central Michigan vs. Miami (OH) series and games list; Wikipedia: Kelly/Shorts Stadium; The Miami Student, Aug. 2026 season preview; Monmouth Athletics / CAA (Nelson, 2025 CAA Offensive POY); Rotowire: Miami (OH) game page and Caleb Heavner news.</p>
 <p>Caveats: ESPN's roster and the school's own can differ by a few names or numbers; players without a photo show initials; statistics are through last weekend's games. Every note names its source; numbers from unverified sources were left out.</p>
 <p><button class="tools" onclick="toggleTheme()">Toggle dark / light</button></p>
 </footer>

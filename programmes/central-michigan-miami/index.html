@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Miami (OH) at Central Michigan Programme</title>
+<title>Miami (OH) at Central Michigan Live Programme</title><meta name="robots" content="noindex,nofollow">
 <style>
 :root{--bg:#fbf8f3;--rule:#FFC82E;--homeon:#FFC82E;--awayon:#fff;--fg:#1b1b1b;--muted:#6b645c;--card:#fff;--line:#e3ddd4;--home:#6A0032;--away:#c41230;--hometx:#6A0032;--awaytx:#c41230;--accent:#6A0032}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141210;--fg:#f1ece4;--muted:#a79e93;--card:#1f1b18;--line:#332d28;--rule:#FFC82E;--hometx:#FFC82E;--awaytx:#ff6f78;--accent:#FFC82E}}
@@ -50,18 +50,29 @@ textarea{width:100%;min-height:90px;border-radius:10px;border:1px solid var(--li
 a{color:var(--accent)} .tools button{padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font-weight:600}
 footer{color:var(--muted);font-size:13px;margin-top:30px}
 .rosterlist details summary{cursor:pointer;font-weight:700;font-size:17px;padding:8px 0}
-
+.lscore{display:grid;grid-template-columns:1fr 1.2fr 1fr;align-items:center;text-align:center;gap:6px}.lt .ln{font-weight:700}.lt .lv{font-size:2.6rem;font-weight:800;line-height:1.1}.lt.away .lv{color:var(--awaytx)}.lt.home .lv{color:var(--hometx)}.lmid #l-status{font-weight:700}.lmeta{margin-top:6px}.lbtn{padding:4px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);font-size:0.9rem}.lplays{padding-left:18px;margin:4px 0}.lplays li{margin:4px 0}.lplays li.sc{font-weight:700}#live h2{border-color:#1d7a3a}.lflash{animation:lf 1.2s ease-out}@keyframes lf{from{background:#ffe9a8}to{background:transparent}}
 @media print{nav.tabs,.lookup,.quiz,.tools,#fun .box.interactive{display:none!important} .card{break-inside:avoid;page-break-inside:avoid} details{display:block} details>summary{display:none} details.bio>*{display:block} body{font-size:12px} .hs{width:70px;height:70px;flex-basis:70px} h2{break-after:avoid} section{break-before:auto}}
 </style></head><body>
 <header class="hero">
  <div class="sub">MAC football · Senior Day / Alumni Awards · Saturday, October 24, 2026</div>
- <h1>Miami (OH) RedHawks at Central Michigan Chippewas</h1>
+ <h1>Miami (OH) RedHawks at Central Michigan Chippewas</h1><div class="sub"><b>Live edition</b></div>
  <div class="rec"><span>Miami (OH) 4-3 (2-1 MAC)</span><span>Central Michigan 3-4 (1-2 MAC)</span></div>
  <div class="sub">Kickoff 1:00 PM ET · Kramer-Deromedi Field at Kelly/Shorts Stadium, Mount Pleasant, Mich. · ESPN+</div>
  <div class="sub small">Line (DraftKings, via ESPN, Sat. morning): Miami (OH) −3.5, over/under 40.5 · ESPN game-time forecast: 61°F, gusts 10 mph</div>
 </header>
-<nav class="tabs"><a href="#" onclick="sizeText(-1);return false" title="Smaller text" style="font-weight:800">A−</a><a href="#" onclick="sizeText(1);return false" title="Larger text" style="font-weight:800">A+</a><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" title="Back to top" style="font-weight:800">↑ Top</a><a href="#lookup">Who's that?</a><a href="#watch">Who to watch</a><a href="#starters">Starters</a><a href="#home">Central Michigan roster</a><a href="#away">Miami (OH) roster</a><a href="#season">Season so far</a><a href="#series">The series</a><a href="#gameday">Game day</a><a href="#fun">Fun &amp; games</a><a href="#share">Share</a><a href="#about">Sources</a></nav>
+<nav class="tabs"><a href="#live" style="color:#1d7a3a">● Live</a><a href="#" onclick="sizeText(-1);return false" title="Smaller text" style="font-weight:800">A−</a><a href="#" onclick="sizeText(1);return false" title="Larger text" style="font-weight:800">A+</a><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" title="Back to top" style="font-weight:800">↑ Top</a><a href="#lookup">Who's that?</a><a href="#watch">Who to watch</a><a href="#starters">Starters</a><a href="#home">Central Michigan roster</a><a href="#away">Miami (OH) roster</a><a href="#season">Season so far</a><a href="#series">The series</a><a href="#gameday">Game day</a><a href="#fun">Fun &amp; games</a><a href="#share">Share</a><a href="#about">Sources</a></nav>
 <main>
+
+<section id="live"><h2>Live</h2>
+<div class="box" id="livebox">
+ <div class="lscore"><div class="lt away"><div class="ln">Miami (OH)</div><div class="lv" id="l-away">–</div></div><div class="lmid"><div id="l-status">Waiting for the feed…</div><div id="l-sit" class="small"></div></div><div class="lt home"><div class="ln">Central Michigan</div><div class="lv" id="l-home">–</div></div></div>
+ <div class="lmeta small dim"><span id="l-age">Not updated yet.</span> <button class="lbtn" onclick="livePoll(true)">Refresh</button> <span id="l-net"></span></div>
+ <div id="l-wp" class="small"></div>
+ <h3 style="font-size:1.05rem;margin-top:10px">Scoring</h3><ul id="l-scoring" class="lplays"><li class="dim">No scores yet.</li></ul>
+ <h3 style="font-size:1.05rem;margin-top:10px">Latest plays</h3><ul id="l-plays" class="lplays"><li class="dim">Plays appear here once ESPN's play-by-play starts (not promised for every game; score and clock always come).</li></ul>
+ <p class="small dim">Source: ESPN's public game feed, read straight from this phone. Polls every 45 seconds while the page is open and a few kilobytes at a time; with no signal it keeps the last reading and says how old it is.</p>
+</div>
+</section>
 
 <section id="lookup">
  <h2>Who's that? Look up a number</h2>
@@ -1114,4 +1125,63 @@ function ans(btn,o,a){qn++;if(o===a){btn.classList.add('ok');qs++;}else{btn.clas
 function sizeText(d){let s=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--base'))||18;s=Math.min(26,Math.max(14,s+2*d));document.documentElement.style.setProperty('--base',s+'px');try{localStorage.setItem(SK+'base',s);}catch(e){}}
 function toggleTheme(){const r=document.documentElement;const cur=r.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');r.dataset.theme=cur==='dark'?'light':'dark';try{localStorage.setItem(SK+'theme',r.dataset.theme);}catch(e){}}
 (function(){try{const bs=localStorage.getItem(SK+'base');if(bs)document.documentElement.style.setProperty('--base',bs+'px');const t=localStorage.getItem(SK+'theme');if(t)document.documentElement.dataset.theme=t;for(let q=1;q<=4;q++){document.getElementById('c'+q).value=localStorage.getItem(SK+'c'+q)||'';document.getElementById('b'+q).value=localStorage.getItem(SK+'b'+q)||'';}document.getElementById('notes').value=localStorage.getItem(SK+'notes')||'';}catch(e){}tot();bingo();nextQ();})();
+</script><script>
+const LV={event:'401866476',home:'2117',away:'193',homeName:'Central Michigan',awayName:'Miami (OH)'};
+const CORE='https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/'+LV.event+'/competitions/'+LV.event+'/';
+const SUMMARY='https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event='+LV.event;
+let L={home:null,away:null,status:null,period:0,clock:'',state:'pre',detail:'',playCount:0,plays:[],scoring:[],wp:null,updated:0,sit:null};
+try{const s=localStorage.getItem('live_'+LV.event);if(s)L=Object.assign(L,JSON.parse(s));}catch(e){}
+let liveTimer=null,liveBusy=false,liveFails=0;
+async function jget(url,ms){const c=new AbortController();const t=setTimeout(()=>c.abort(),ms||8000);try{const r=await fetch(url,{signal:c.signal,cache:'no-store'});if(!r.ok)throw new Error(r.status);return await r.json();}finally{clearTimeout(t);}}
+function ordinal(n){return n===1?'1st':n===2?'2nd':n===3?'3rd':n===4?'4th':n>4?'OT'+(n-4>1?n-4:''):''}
+function fmtAge(){if(!L.updated)return 'Not updated yet.';const s=Math.round((Date.now()-L.updated)/1000);const t=new Date(L.updated);const hh=t.getHours()%12||12,mm=String(t.getMinutes()).padStart(2,'0');return 'Updated '+hh+':'+mm+(s<60?' (just now)':s<3600?' ('+Math.round(s/60)+' min ago)':' ('+Math.round(s/3600)+' h ago)');}
+function liveRender(){
+ const sc=(v)=>v===null||v===undefined?'–':String(v);
+ const eh=document.getElementById('l-home'),ea=document.getElementById('l-away');
+ if(eh.textContent!==sc(L.home)){eh.textContent=sc(L.home);eh.classList.remove('lflash');void eh.offsetWidth;eh.classList.add('lflash');}
+ if(ea.textContent!==sc(L.away)){ea.textContent=sc(L.away);ea.classList.remove('lflash');void ea.offsetWidth;ea.classList.add('lflash');}
+ let st='';
+ if(L.state==='pre')st=L.detail||'Pregame';else if(L.state==='post')st='Final'+(L.period>4?' (OT)':'');else st=ordinal(L.period)+' · '+L.clock;
+ document.getElementById('l-status').textContent=st;
+ let sit='';if(L.state==='in'&&L.sit){const d=L.sit.down,ds=L.sit.distance;if(d>0)sit=ordinal(d)+' & '+(ds===0?'goal':ds);if(L.sit.isRedZone)sit+=' · red zone';if(L.sit.poss)sit=(L.sit.poss+' ball · ')+sit;}
+ document.getElementById('l-sit').textContent=sit;
+ if(L.state!=='pre'&&L.home!==null&&L.away!==null){const m=L.home-L.away;let line='';if(m===0)line='All square';else line=(m>0?LV.homeName:LV.awayName)+' by '+Math.abs(m);if(L.state==='in')line+=' with '+L.clock+' left in the '+ordinal(L.period);document.getElementById('l-wp').textContent=line+(L.wp!==null&&L.state==='in'?' · ESPN win probability: '+LV.homeName+' '+Math.round(L.wp*100)+'%':'');}
+ document.getElementById('l-age').textContent=fmtAge();
+ const S=document.getElementById('l-scoring');if(L.scoring.length){S.innerHTML=L.scoring.map(p=>'<li class="sc">'+esc(p.q+' '+p.clock+' — '+(p.team?p.team+': ':'')+p.text+(p.home!==undefined&&p.home!==null?' ('+LV.awayName+' '+p.away+', '+LV.homeName+' '+p.home+')':''))+'</li>').join('');}
+ const P=document.getElementById('l-plays');if(L.plays.length){P.innerHTML=L.plays.slice().reverse().map(p=>'<li'+(p.scoring?' class="sc"':'')+'>'+esc((p.q?p.q+' '+p.clock+' — ':'')+(p.team?p.team+': ':'')+p.text)+'</li>').join('');}
+}
+function esc(s){return String(s).replace(/\(\d{1,2}:\d\d\)\s*/g,'').replace(/\s*\(H:[^)]*\)/g,'').replace(/,\s*clock \d+:\d+/g,'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function teamName(ref){if(!ref)return '';return ref.indexOf('/'+LV.home+'?')>-1||ref.endsWith('/'+LV.home)?LV.homeName:ref.indexOf('/'+LV.away+'?')>-1||ref.endsWith('/'+LV.away)?LV.awayName:'';}
+async function livePoll(manual){
+ if(liveBusy)return;liveBusy=true;const net=document.getElementById('l-net');net.textContent=manual?'checking…':'';
+ try{
+  const [st,hs,as]=await Promise.all([jget(CORE+'status'),jget(CORE+'competitors/'+LV.home+'/score'),jget(CORE+'competitors/'+LV.away+'/score')]);
+  const prevScore=(L.home||0)+'-'+(L.away||0);
+  L.state=st.type.state;L.detail=st.type.shortDetail||st.type.detail;L.period=st.period;L.clock=st.displayClock;
+  L.home=Math.round(hs.value);L.away=Math.round(as.value);L.updated=Date.now();liveFails=0;
+  if(L.state!=='pre'){
+   try{const c=await jget(CORE+'plays?limit=1');const n=c.count||0;
+    if(n!==L.playCount){const per=10,page=Math.max(1,Math.ceil(n/per));const pl=await jget(CORE+'plays?limit='+per+'&page='+page);
+     L.plays=(pl.items||[]).map(p=>({text:p.text||p.shortText||'',q:p.period?ordinal(p.period.number):'',clock:p.clock?p.clock.displayValue:'',scoring:!!p.scoringPlay,team:teamName(p.team&&p.team.$ref)}));L.playCount=n;}
+   }catch(e){}
+   try{const si=await jget(CORE+'situation');L.sit={down:si.down,distance:si.distance,isRedZone:si.isRedZone,poss:teamName(si.team&&si.team.$ref)};}catch(e){}
+   // scoring summary, built from the play feed (the big summary endpoint refuses file:// pages)
+   try{
+    const known=new Set(L.scoring.map(s=>s.id));
+    const add=(p)=>{if(p.scoringPlay&&!known.has(p.id)){known.add(p.id);L.scoring.push({id:p.id,q:p.period?ordinal(p.period.number):'',clock:p.clock?p.clock.displayValue:'',team:teamName(p.team&&p.team.$ref),text:(p.text||'').trim(),home:p.homeScore,away:p.awayScore,seq:Number(p.sequenceNumber||0)});}};
+    if(!L.scoring.length&&L.playCount>12){const all=await jget(CORE+'plays?limit=400',15000);(all.items||[]).forEach(add);}
+    else{(L.plays||[]).forEach(()=>{});const pl=await jget(CORE+'plays?limit=12&page='+Math.max(1,Math.ceil(L.playCount/12)));(pl.items||[]).forEach(add);}
+    L.scoring.sort((a,b)=>a.seq-b.seq);
+   }catch(e){}
+   try{const pc=await jget(CORE+'probabilities?limit=1');if(pc.count){const pp=await jget(CORE+'probabilities?limit=1&page='+pc.count);if(pp.items&&pp.items.length)L.wp=pp.items[0].homeWinPercentage;}}catch(e){}
+  }
+  net.textContent='';
+  try{localStorage.setItem('live_'+LV.event,JSON.stringify(L));}catch(e){}
+ }catch(e){liveFails++;net.textContent='no signal (try '+liveFails+')';}
+ liveBusy=false;liveRender();
+}
+function liveStart(){liveRender();livePoll();if(liveTimer)clearInterval(liveTimer);liveTimer=setInterval(()=>{if(document.visibilityState==='visible'&&L.state!=='post')livePoll();else if(document.visibilityState==='visible')liveRender();},45000);}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')livePoll();});
+setInterval(()=>{document.getElementById('l-age').textContent=fmtAge();},30000);
+liveStart();
 </script></body></html>

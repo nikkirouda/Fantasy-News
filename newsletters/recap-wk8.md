@@ -98,59 +98,63 @@ Thursday's table gave each team two numbers for a top-six seat: one if they won,
 |---|---|---|---|
 | Road Islanders | Won | 100% | 100% |
 | Captain Chaos | Won | 98% | 100% |
-| Robots Helping (Themselves) | Won | 94% | 99% |
-| Rickhouse ROYalty | Lost | 84% | 91% |
-| Artificial Win-telligence | Won | 47% | 58% |
-| Team 3 | Lost | 25% | 38% |
-| Tritium Badgers | Won | 25% | 29% |
-| Motorcity-Meh | Lost | 35% | 27% |
-| The Provid-End Zones | Won | 34% | 23% |
-| Team Simmons | Lost | 28% | 19% |
-| To Infinity and Bijan! | Lost | 17% | 17% |
+| Robots Helping (Themselves) | Won | 94% | 100% |
+| Rickhouse ROYalty | Lost | 84% | 95% |
+| Team 3 | Lost | 25% | 57% |
+| Artificial Win-telligence | Won | 47% | 45% |
+| Motorcity-Meh | Lost | 35% | 32% |
+| To Infinity and Bijan! | Lost | 17% | 25% |
+| Tritium Badgers | Won | 25% | 20% |
+| The Provid-End Zones | Won | 34% | 15% |
+| Team Simmons | Lost | 28% | 10% |
 | Gofffather | Lost | 0% | 0% |
 | Green Eggs and Sam | Won | 0% | 0% |
 | AMONsters Inc. | Lost | 0% | 0% |
 
-Team 3 lost and landed above their losing branch, because Motorcity, Simmons and Infinity all lost too. Provid-End won and landed below their winning branch. Part of that is the same crowd at 4-4, and part is method: Thursday's table and Tuesday's model aren't the same sum. Tuesday's rates every roster as well as every record, and it rates Provid-End's below the teams around them.
+Team 3 lost and more than doubled their losing branch. Provid-End won and landed at less than half of their winning branch. Most of that is method: Thursday's table and Tuesday's model aren't the same sum. Tuesday's rates every roster as well as every record, and it rates Team 3's roster fifth in the league and Provid-End's eleventh. Team 3 also have the second-softest schedule left.
 
 ## Power rankings & playoff odds
 
 | # | Team | Record | Strength | Exp. wins | Top-6 | Top-10 |
 |---|------|--------|----------|-----------|-------|--------|
-| 1 | Road Islanders | 7-1 | 80.9 | 10.1 | 100% | 100% |
-| 2 | Robots Helping (Themselves) | 6-2 | 81.9 | 9.2 | 99% | 100% |
-| 3 | Captain Chaos | 7-1 | 76.8 | 9.8 | 100% | 100% |
-| 4 | Rickhouse ROYalty | 5-3 | 77.8 | 8.1 | 91% | 100% |
-| 5 | Motorcity-Meh | 3-5 | 71.8 | 5.7 | 27% | 84% |
-| 6 | To Infinity and Bijan! | 3-5 | 71.3 | 5.5 | 17% | 74% |
-| 7 | Team Simmons | 3-5 | 71.4 | 5.5 | 19% | 74% |
-| 8 | Artificial Win-telligence | 5-3 | 71.2 | 7.3 | 58% | 97% |
-| 9 | Tritium Badgers | 4-4 | 68.1 | 6.2 | 29% | 85% |
-| 10 | The Provid-End Zones | 4-4 | 66.1 | 6.0 | 23% | 80% |
-| 11 | Team 3 | 4-4 | 72.2 | 6.8 | 38% | 89% |
-| 12 | Green Eggs and Sam | 2-6 | 61.3 | 3.8 | 0% | 7% |
-| 13 | Gofffather | 2-6 | 63.2 | 4.0 | 0% | 9% |
-| 14 | AMONsters Inc. | 1-7 | 58.1 | 2.9 | 0% | 4% |
+| 1 | Robots Helping (Themselves) | 6-2 | 135.2 | 9.8 | 100% | 100% |
+| 2 | Road Islanders | 7-1 | 126.2 | 10.1 | 100% | 100% |
+| 3 | Captain Chaos | 7-1 | 125.0 | 10.1 | 100% | 100% |
+| 4 | Rickhouse ROYalty | 5-3 | 124.5 | 8.4 | 95% | 100% |
+| 5 | Motorcity-Meh | 3-5 | 116.8 | 6.0 | 32% | 90% |
+| 6 | To Infinity and Bijan! | 3-5 | 120.6 | 5.8 | 25% | 87% |
+| 7 | Team Simmons | 3-5 | 111.3 | 5.2 | 10% | 65% |
+| 8 | Team 3 | 4-4 | 121.0 | 7.3 | 57% | 96% |
+| 9 | Artificial Win-telligence | 5-3 | 112.0 | 6.9 | 45% | 93% |
+| 10 | Tritium Badgers | 4-4 | 108.4 | 6.1 | 20% | 84% |
+| 11 | The Provid-End Zones | 4-4 | 107.3 | 5.8 | 15% | 77% |
+| 12 | Green Eggs and Sam | 2-6 | 98.3 | 3.5 | 0% | 4% |
+| 13 | Gofffather | 2-6 | 98.9 | 3.6 | 0% | 4% |
+| 14 | AMONsters Inc. | 1-7 | 90.4 | 2.4 | 0% | 0% |
 
-The top four have separated: the author and Chaos are certain of a bye on these numbers, the Robots nearly so, Rickhouse nine in ten. Below them, seven teams between 3-5 and 5-3 are chasing two top-six seats, and the model has nobody in that group better than three in five. Win-telligence lead it on record. Team 3 rank eleventh in power and still have the second-best odds of the seven, because 4-4 is already banked and their schedule is soft.
+How the ranking works: sixty percent strength, the projected points of each team's best legal lineup this week, and forty percent points per game so far. Record isn't in it; record drives the odds columns. The Robots top it on the strongest roster in the league, with McCaffrey and Nabers back from their bye. The author is second and Chaos third. The top four have separated: three are certain of a top-six seat on these numbers and Rickhouse are at ninety-five percent. Below them, seven teams between 3-5 and 5-3 are chasing two seats, and nobody in that group is better than three in five. Team 3 lead it at fifty-seven percent on the fifth-best roster and the second-softest schedule. Win-telligence are 5-3 and still behind them, because their roster rates eighth and their road is the hardest left.
 
 ## Strength of schedule — remaining schedule (1 = hardest)
 
 Average opponent vs the league-average team: + is harder, − is easier.
 
-1. Artificial Win-telligence — +4.0% over 5 games
-2. Robots Helping (Themselves) — +2.4% over 5 games
-3. Captain Chaos — +2.2% over 5 games
-4. Road Islanders — +1.9% over 5 games
-5. The Provid-End Zones — +1.6% over 5 games
-6. Tritium Badgers — +1.3% over 5 games
-7. To Infinity and Bijan! — +0.6% over 5 games
-8. Green Eggs and Sam — +0.6% over 5 games
-9. Team Simmons — +0.5% over 5 games
-10. Rickhouse ROYalty — −1.8% over 5 games
-11. Gofffather — −1.8% over 5 games
-12. Motorcity-Meh — −2.6% over 5 games
-13. Team 3 — −3.2% over 5 games
+1. Artificial Win-telligence — +5.3% over 5 games
+2. Captain Chaos — +2.9% over 5 games
+3. The Provid-End Zones — +2.4% over 5 games
+4. Road Islanders — +2.3% over 5 games
+5. Robots Helping (Themselves) — +1.6% over 5 games
+6. To Infinity and Bijan! — +1.3% over 5 games
+7. Tritium Badgers — +1.0% over 5 games
+8. Team Simmons — +0.5% over 5 games
+9. Green Eggs and Sam — −0.6% over 5 games
+10. Gofffather — −1.6% over 5 games
+11. Rickhouse ROYalty — −2.5% over 5 games
+12. Motorcity-Meh — −3.1% over 5 games
+13. Team 3 — −3.5% over 5 games
 14. AMONsters Inc. — −5.9% over 5 games
 
 Win-telligence still have the hardest road, now with the best record in the chasing pack. Motorcity have the third-easiest, and they'll need it.
+
+---
+
+*Corrected Tuesday morning: the first version of this edition rated rosters on projections that had been divided down by mistake, which put every team's strength near eighty points and let points per game carry the power rankings. Strength is now on the same scale as real scores, and the power rankings, odds, stakes read-back and schedule table above use it. Results, standings and everything else are unchanged.*

@@ -34,7 +34,7 @@
 
 **Dutch:** In Arlington.
 
-**Ref:** Provid-End got a pair of touchdowns from Amon-Ra St. Brown in Munich, and Provid-End still hold the sixth seat.
+**Ref:** Provid-End got a pair of touchdowns from Amon-Ra St. Brown in Munich, and they still hold the sixth seat.
 
 **Ref:** The Robots over the Badgers.
 

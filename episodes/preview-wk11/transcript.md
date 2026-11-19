@@ -102,7 +102,7 @@
 
 **Ref:** A lot of the NFL is off this week. Nia, who needs what?
 
-**Nia:** Win-telligence and Chaos need a kicker: Wil Lutz and Drew Stevens are out there. The Robots and Simmons need a tight end: Gunnar Helm or Greg Dulcich. AMONsters and Green Eggs need a quarterback: Cam Ward and Justin Herbert are both available.
+**Nia:** Win-telligence and Chaos need a kicker: Drew Stevens and Joey Slye are out there. The Robots and Simmons need a tight end: Gunnar Helm or Greg Dulcich. AMONsters and Green Eggs need a quarterback: Cam Ward and Justin Herbert are both available.
 
 **Dutch:** Justin Herbert, on the wire. What a league.
 

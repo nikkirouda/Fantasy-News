@@ -10,7 +10,7 @@ Same ground rules as always. Every team is assumed to set its best lineup, Quest
 
 ## The wire
 
-No trades. The Badgers were the busiest team, adding a kicker in Cameron Dicker and a receiver in Elic Ayomanor. Team 3 picked up the Broncos defense, and the author added a rookie quarterback, Fernando Mendoza.
+No trades. The Badgers were the busiest team, adding a kicker in Cameron Dicker and a receiver in Elic Ayomanor. Team 3 picked up the Broncos defense, and the author added a rookie quarterback, Fernando Mendoza. Late Wednesday, Motorcity added a kicker, Wil Lutz, and the lines below include him.
 
 ## This week's matchups
 
@@ -18,10 +18,10 @@ Best lineups as projected, with the obvious pickup where a team needs one.
 
 | Game | Projected | Favorite |
 |---|---|---|
-| Robots at Win-telligence | 126.4 – 129.4 | Win-telligence by 3 |
+| Robots at Win-telligence | 126.4 – 129.3 | Win-telligence by 3 |
 | Road Islanders at Tritium Badgers | 125.1 – 117.9 | Road Islanders by 7 |
-| Captain Chaos at Provid-End | 113.2 – 103.8 | Chaos by 9 |
-| Green Eggs at Motorcity-Meh | 90.8 – 116.8 | Motorcity by 26 |
+| Captain Chaos at Provid-End | 111.9 – 103.8 | Chaos by 8 |
+| Green Eggs at Motorcity-Meh | 90.8 – 118.7 | Motorcity by 28 |
 | Team 3 at Team Simmons | 117.9 – 115.7 | Team 3 by 2 |
 | Gofffather at Rickhouse | 97.5 – 137.7 | Rickhouse by 40 |
 | AMONsters at Infinity | 96.0 – 92.3 | AMONsters by 4 |
@@ -135,7 +135,7 @@ Nobody can be eliminated this week.
 
 A friendly heads-up, with so many NFL teams off. Here is who has a spot to fill, and who is sitting on the wire:
 
-- **Kicker:** Win-telligence and Chaos. Wil Lutz and Drew Stevens are available.
+- **Kicker:** Win-telligence and Chaos. Drew Stevens and Joey Slye are available.
 - **Tight end:** the Robots and Simmons. Gunnar Helm, Greg Dulcich and Michael Mayer are available.
 - **Quarterback:** AMONsters and Green Eggs. Cam Ward and Justin Herbert are available.
 - **Defense:** Green Eggs. The Chargers defense is available.
